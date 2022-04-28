@@ -13,6 +13,8 @@ public class CompletableFutureDemo {
         String expectedValue = "the expected value";
         CompletableFuture<String> alreadyCompleted = CompletableFuture.completedFuture(expectedValue);
         System.out.println(alreadyCompleted.get());
+
+
     }
 
 }
